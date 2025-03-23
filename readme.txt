@@ -24,4 +24,10 @@
 
 //! комманды инициализации проекта
 yarn add -D @trivago/prettier-plugin-sort-imports - сортирует импорты
-docker compose up -d - 
+
+docker compose up -d - запуск докера
+
+yarn add prisma @prisma/client - установка призмы
+yarn prisma init - инициализация призмы
+
+
