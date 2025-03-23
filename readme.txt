@@ -30,4 +30,10 @@ docker compose up -d - запуск докера
 yarn add prisma @prisma/client - установка призмы
 yarn prisma init - инициализация призмы
 
+//! prisma
+yarn prisma db push - пушим созданные модели в призму
+yarn prisma studio - запуск prisma studio
+
+//! nest
+nest g res core/prisma --no-spec - создает сущность res
 
