@@ -37,3 +37,10 @@ yarn prisma studio - запуск prisma studio
 //! nest
 nest g res core/prisma --no-spec - создает сущность res
 
+//! graphql
+yarn add @nestjs/graphql @nestjs/apollo @apollo/server graphql @nestjs/config - установка пакетов
+
+//! пакеты для авторизации через сессии и реддиса
+yarn add cookie-parser express-session connect-redis ioredis
+
+
