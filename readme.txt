@@ -43,4 +43,6 @@ yarn add @nestjs/graphql @nestjs/apollo @apollo/server graphql @nestjs/config - 
 //! пакеты для авторизации через сессии и реддиса
 yarn add cookie-parser express-session connect-redis ioredis
 
+//!
+yarn add class-validator class-transformer
 
