@@ -7,10 +7,12 @@ import { hash } from 'argon2';
 export class AccountService {
     public constructor(private readonly prismaService: PrismaService) { }
 
-    public async findAll() {
-        const users = await this.prismaService.user.findMany()
+    public async me(id: string) {
+        const user = await this.prismaService.user.findUnique({
+            where: { id }
+        })
 
-        return users;
+        return user
     }
 
     public async create(input: CreateUserInput) {

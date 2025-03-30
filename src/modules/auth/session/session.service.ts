@@ -29,7 +29,6 @@ export class SessionService {
         }
 
         const isValidPassword = await verify(user.password, password);
-        console.log(isValidPassword)
 
         if (!isValidPassword) {
             throw new UnauthorizedException('Неверный пароль')
