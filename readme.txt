@@ -46,3 +46,6 @@ yarn add cookie-parser express-session connect-redis ioredis
 //!
 yarn add class-validator class-transformer
 
+//! пакеты для геолоокации
+yarn add geoip-lite device-detector-js i18n-iso-countries
+
