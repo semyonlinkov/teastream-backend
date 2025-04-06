@@ -49,3 +49,5 @@ yarn add class-validator class-transformer
 //! пакеты для геолоокации
 yarn add geoip-lite device-detector-js i18n-iso-countries
 
+//! пакет для почтового сервера
+yarn add @nestjs-modules/mailer
